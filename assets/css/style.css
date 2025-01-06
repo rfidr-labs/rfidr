@@ -476,7 +476,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 170vh;
+    height: 150vh;
     text-align: center;
   }
 
@@ -1318,12 +1318,12 @@ section {
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #42d1d5;
+  border: 1px solid #ffffff;
 }
 
 .pricing .buy-btn:hover {
   background: #42d1d5;
-  color: #fff;
+  color: #ffffff;
 }
 
 .pricing .featured {
