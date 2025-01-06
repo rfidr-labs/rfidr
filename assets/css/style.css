@@ -2,13 +2,20 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #a1a1a1;
-  top: 95px !important;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  top: 1% !important;
+  background:transparent;
+
+  background-image: url('https://media.giphy.com/media/N1Fcnipz6WlUROVNpb/giphy.gif?cid=ecf05e47xt6mcjc4euybna5fo72bmn2il19bjf9esq5jjcdw&ep=v1_gifs_search&rid=giphy.gif&ct=g'); /* Ganti 'background.gif' dengan nama file gambar bergerak Anda */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: animateBackground 60s linear infinite
 }
 
 a {
-  color: #330852;
+  color: #ffff00;
   text-decoration: none;
 }
 
@@ -395,9 +402,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 120h;
   /*background: #ff914d;*/
-  background: url("../img/hero-bg.png") no-repeat;
+  background: transparent no-repeat;
   background-size: cover;
 }
 
@@ -469,7 +476,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 145vh;
+    height: 170vh;
     text-align: center;
   }
 
@@ -544,7 +551,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  background-color: transparent;
 }
 
 .section-title {
@@ -683,7 +690,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #ff914d;
+  color: #330852;
 }
 
 .why-us .content h4 {
@@ -869,10 +876,10 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px 2px transparent(0, 0, 0, 0.1);
   padding: 40px 40px;
   transition: all ease-in-out 0.4s;
-  background: #330852;
+  background: #000000;
 }
 
 .services .icon-box .icon {
@@ -880,7 +887,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #ffffff;
+  color: #ff914d;
   font-size: 36px;
   transition: 0.4s;
 }
