@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #ffff00;
+  color: #feffe0;
   text-decoration: none;
 }
 
@@ -126,8 +126,8 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #fffbee;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  background: #d3d3d3;
+  box-shadow: 0 3px 10px transparent(0 0 0 / 20%);
   transition: all 1s ease-out 0s;
 }
 .header-scrolled .navbar a,
@@ -649,7 +649,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #42d1d5;
+  color: #ffffff;
   line-height: 1;
 }
 
@@ -667,16 +667,19 @@ section {
   border-radius: 8px;
   transition: 0.3s;
   line-height: 1;
-  color: #42d1d5;
+  background: #330852;
+  color: #ffffff;
+  border: 2px solid #ffffff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #42d1d5;
+  
 }
 
 .about .content .btn-learn-more:hover {
-  background: #42d1d5;
-  color: #fff;
+  background: #5e5e5e;
+  border: 2px solid #ffffff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -725,7 +728,7 @@ section {
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: #fff;
+  background: #f0f0f0;
   border-radius: 4px;
 }
 
@@ -887,7 +890,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #ff914d;
+  color: #ecec53;
   font-size: 36px;
   transition: 0.4s;
 }
@@ -921,19 +924,19 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(transparent(40, 58, 90, 0.9), transparent40, 58, 90, 0.9), fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: #330852;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #000000;
 }
 
 .cta .cta-btn {
@@ -946,13 +949,15 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background: #330852;
 }
 
 .cta .cta-btn:hover {
-  background: #42d1d5;
-  border: 2px solid #42d1d5;
+  background: #5e5e5e;
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
 
 @media (max-width: 1024px) {
@@ -1130,18 +1135,18 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team .member {
-  position: relative;
+..team .member {
+  position: wrap;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 44px;
   border-radius: 5px;
-  background: #fff;
+  background: transparent;
   transition: 0.5s;
 }
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 125px;
   border-radius: 50%;
 }
 
@@ -1161,7 +1166,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #ff914d;
+  color: #000000;
 }
 
 .team .member span {
@@ -1170,6 +1175,7 @@ section {
   padding-bottom: 10px;
   position: relative;
   font-weight: 500;
+  color:#330852;
 }
 
 .team .member span::after {
@@ -1203,17 +1209,17 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #eff2f8;
+  background: #161618;
 }
 
 .team .member .social a i {
-  color: #ff914d;
+  color: #ffff9e;
   font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .social a:hover {
-  background: #42d1d5;
+  background: #ffff9e;
 }
 
 .team .member .social a:hover i {
@@ -1234,7 +1240,7 @@ section {
 .pricing .box {
   padding:20px 30px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
-  background: #fff;
+  background: #a0a0a0;
   height: 100%;
   border-top: 4px solid #fff;
   border-radius: 5px;
@@ -1321,7 +1327,7 @@ section {
 }
 
 .pricing .featured {
-  border-top-color: #42d1d5;
+  border-top-color: #ff914d;
 }
 
 .pricing .featured .buy-btn {
@@ -1372,7 +1378,7 @@ section {
 
 .faq .faq-list li {
   padding: 20px;
-  background: #fff;
+  background: #000000;
   border-radius: 4px;
   position: relative;
 }
@@ -1685,7 +1691,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #42d1d5;
+  background: transparent;
 }
 
 #footer .footer-newsletter {
@@ -1743,7 +1749,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: transparent;
 }
 
 #footer .footer-top .footer-contact {
@@ -1788,7 +1794,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #42d1d5;
+  color: #330852;
   font-size: 18px;
   line-height: 1;
 }
@@ -1804,7 +1810,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #000000;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1812,7 +1818,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #42d1d5;
+  color: #ff914d;
 }
 
 #footer .footer-top .social-links a {
